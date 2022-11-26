@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>StopWatcher</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="navBar">
+        <nav>
+          <div class="logo">
+            Stop <br />
+            <span>Watcher</span>
+          </div>
+          <ul class="nav_list">
+            <li><a href="#" class="active">StopWatch</a></li>
+            <li><a href="#">Timer</a></li>
+          </ul>
+          <div class="author">Made By: <span>Saeed</span> Ahmad</div>
+        </nav>
+      </div>
+      <div id="stopWatch">
+        <div class="stopWatchContent">
+          <div class="time">
+            <div class="block">
+              <div class="upper">00</div>
+              <div class="lower">Hours</div>
+            </div>
+            <div class="block">
+              <div class="upper">00</div>
+              <div class="lower">Minutes</div>
+            </div>
+            <div class="block">
+              <div class="upper">00</div>
+              <div class="lower">Seconds</div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="btn">Start</button>
+            <button class="btn">Reset</button>
+            <button class="btn" id="lapbtn">Lap</button>
+          </div>
+          <div id="lap" class="lapis">
+            <div class="title">LAP</div>
+            <div class="lap">
+              <div class="left">Lap 1</div>
+              <div class="right">00:00:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
